@@ -1,5 +1,6 @@
 body {
   background-color: #f8f9fa;
+  margin-bottom: 60px;
 }
 
 .container {
@@ -18,15 +19,19 @@ form label {
 }
 
 .btn-primary {
-  background-color: #034aab;
+  background-color: #007bff;
   border: none;
 }
 
+.btn:hover {
+  background-color: #0000004d;
+}
+
 .card {
-  background: #034aab;
+  background: #004085;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  color: #ffffff;
+  color: #fff;
 }
 
 .profile-info h4 {
@@ -36,15 +41,6 @@ form label {
 .settings button {
   background: none;
   border: none;
-}
-
-.balance,
-.actions,
-.next-payment {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .balance-amount {
@@ -58,4 +54,21 @@ form label {
 
 .next-payment p {
   margin: 0;
+}
+
+.custom-hover:hover {
+  background-color: #0056b3 !important;
+  border-color: #004085 !important;
+  color: #fff !important;
+}
+
+.custom-hover.btn-secondary:hover {
+  background-color: #004085 !important;
+  border-color: #004085 !important;
+}
+
+.custom-hover.btn-light:hover {
+  background-color: #004085 !important;
+  border-color: #004085 !important;
+  color: #000 !important;
 }
